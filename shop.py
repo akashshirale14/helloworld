@@ -45,6 +45,7 @@ class FruitShop:
         totalCost = 0.0
         for fruit, numPounds in orderList:
             costPerPound = self.getCostPerPound(fruit)
+            print"Hello price"
             if costPerPound != None:
                 totalCost += numPounds * costPerPound
         return totalCost
